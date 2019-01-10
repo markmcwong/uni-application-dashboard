@@ -3,6 +3,7 @@
 Using Python Beautiful Soup to scrap all these university application dashboard so we don't have to open them one by one everyday!
 ----------
 **How to Download this:**
+
 Click Clone or Download on the right top corner,
 Click Download Zip and unzip it to your desired location
 ----------
