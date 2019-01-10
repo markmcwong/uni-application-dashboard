@@ -1,0 +1,13 @@
+th:first-child {
+    display: none;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+tr {
+    text-align: left !important;
+}

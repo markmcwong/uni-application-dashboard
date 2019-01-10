@@ -1,0 +1,486 @@
+
+<html>
+  <head><title>HTML Pandas Dataframe with CSS</title></head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+  <script src="main.js"></script>
+  <body>
+    <section class="container">
+        <h2>Uni Application Dashboard</h2>
+        <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter">
+        <table border="1" class="dataframe order-table ui celled table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Status</th>
+      <th>Item</th>
+      <th>Date</th>
+      <th>College</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>32</th>
+      <td>Received</td>
+      <td>ACT or SAT Scores (Official or Unofficial)</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Received</td>
+      <td>Application</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Received</td>
+      <td>Application Fee</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Received</td>
+      <td>Application Supplement</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Received</td>
+      <td>Counselor Recommendation</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Received</td>
+      <td>Initial High School Transcript</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Awaiting</td>
+      <td>Mid-Year/1st Trimester Grades</td>
+      <td>Null</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Received</td>
+      <td>Supplemental Writing</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Received</td>
+      <td>Teacher Recommendation 1</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Received</td>
+      <td>Teacher Recommendation 2</td>
+      <td>01/01/2019</td>
+      <td>amherst</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Awaiting</td>
+      <td>TOEFL/IELTS (Official)</td>
+      <td>Null</td>
+      <td>amherst</td>
+    </tr>
+  </tbody>
+</table><table border="1" class="dataframe order-table ui celled table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Status</th>
+      <th>Item</th>
+      <th>Date</th>
+      <th>College</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>53</th>
+      <td>Received</td>
+      <td>Application</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Received</td>
+      <td>Secondary School Report</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Received</td>
+      <td>Secondary School Transcript</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Received</td>
+      <td>Teacher Recommendation 1</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>Received</td>
+      <td>Teacher Recommendation 2</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Received</td>
+      <td>SAT or ACT Test Scores</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Awaiting</td>
+      <td>Mid Year Report</td>
+      <td>Null</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>Received</td>
+      <td>Application Fee - Paid</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>Received</td>
+      <td>SAT II: Mathematics Level II</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>Received</td>
+      <td>SAT II: Physics</td>
+      <td>01/02/2019</td>
+      <td>harvard</td>
+    </tr>
+  </tbody>
+</table><table border="1" class="dataframe order-table ui celled table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Status</th>
+      <th>Item</th>
+      <th>Date</th>
+      <th>College</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>19</th>
+      <td>Received</td>
+      <td>Application</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Received</td>
+      <td>Counselor Recommendation</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Received</td>
+      <td>High School Report</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Awaiting</td>
+      <td>Mid-Year Grades</td>
+      <td>Null</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Awaiting</td>
+      <td>Mid-Year Report</td>
+      <td>Null</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Awaiting</td>
+      <td>Official Test Scores</td>
+      <td>Null</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Received</td>
+      <td>Teacher Recommendation 1</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Received</td>
+      <td>Teacher Recommendation 2</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Received</td>
+      <td>Teacher Recommendation 3</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Received</td>
+      <td>Unofficial Test Scores</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Received</td>
+      <td>Transcript for Gems Cambridge International Sc...</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Received</td>
+      <td>Other Recommendation</td>
+      <td>01/01/2019</td>
+      <td>middlebury</td>
+    </tr>
+  </tbody>
+</table><table border="1" class="dataframe order-table ui celled table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Status</th>
+      <th>Item</th>
+      <th>Date</th>
+      <th>College</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Received</td>
+      <td>Application</td>
+      <td>01/02/2019</td>
+      <td>princeton</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Received</td>
+      <td>Application Supplement</td>
+      <td>01/02/2019</td>
+      <td>princeton</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Received</td>
+      <td>School Report</td>
+      <td>01/02/2019</td>
+      <td>princeton</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Received</td>
+      <td>Teacher Recommendation</td>
+      <td>01/02/2019</td>
+      <td>princeton</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Received</td>
+      <td>Teacher Recommendation</td>
+      <td>01/02/2019</td>
+      <td>princeton</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Received</td>
+      <td>Transcript (Official)</td>
+      <td>01/02/2019</td>
+      <td>princeton</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Received</td>
+      <td>Official Test Scores - SAT or ACT</td>
+      <td>01/03/2019</td>
+      <td>princeton</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Received</td>
+      <td>Graded Written Paper</td>
+      <td>01/02/2019</td>
+      <td>princeton</td>
+    </tr>
+  </tbody>
+</table><table border="1" class="dataframe order-table ui celled table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Status</th>
+      <th>Item</th>
+      <th>Date</th>
+      <th>College</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>10</th>
+      <td>Received</td>
+      <td>Application</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Received</td>
+      <td>Application Fee</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Received</td>
+      <td>School Report</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Received</td>
+      <td>Counselor Recommendation</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Received</td>
+      <td>Transcript</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Received</td>
+      <td>Teacher Evaluation 1</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Received</td>
+      <td>Teacher Evaluation 2</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Received</td>
+      <td>SAT or ACT</td>
+      <td>01/02/2019</td>
+      <td>stanford</td>
+    </tr>
+  </tbody>
+</table><table border="1" class="dataframe order-table ui celled table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Status</th>
+      <th>Item</th>
+      <th>Date</th>
+      <th>College</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>44</th>
+      <td>Received</td>
+      <td>Application</td>
+      <td>01/02/2019</td>
+      <td>swarthmore</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Received</td>
+      <td>School Report</td>
+      <td>01/02/2019</td>
+      <td>swarthmore</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Received</td>
+      <td>School Transcript</td>
+      <td>01/02/2019</td>
+      <td>swarthmore</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Awaiting</td>
+      <td>Mid Year School Transcript</td>
+      <td>Null</td>
+      <td>swarthmore</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Received</td>
+      <td>Teacher Evaluation 1</td>
+      <td>01/02/2019</td>
+      <td>swarthmore</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Received</td>
+      <td>Teacher Evaluation 2</td>
+      <td>01/02/2019</td>
+      <td>swarthmore</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Received</td>
+      <td>ACT or SAT scores (Self-Reported or Official)</td>
+      <td>01/02/2019</td>
+      <td>swarthmore</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Optional</td>
+      <td>TOEFL or IELTS Scores (Self-Reported or Official)</td>
+      <td>Null</td>
+      <td>swarthmore</td>
+    </tr>
+  </tbody>
+</table>
+    </section>
+  </body>
+</html>.

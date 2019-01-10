@@ -40,7 +40,8 @@ with open("input.json") as input_file:
     df = pd.DataFrame(e).rename(columns={1: 'Status', 2: 'Item', 3:'Date', 4:'College'})
     df.drop(df.columns[[0]], axis=1, inplace=True)
     df = df.groupby('College')
-    htmls = [grp.to_html(classes='mystyle') for team, grp in df]
+    htmls = [grp.to_html(classes='order-table ui celled table')
+             for team, grp in df]
     dataframe_html = u''.join(htmls)
     #for df, df_region in df.groupby('4'):
         #print(df_region)
@@ -50,9 +51,16 @@ pd.set_option('colheader_justify', 'center')   # FOR TABLE <th>
 html_string = '''
 <html>
   <head><title>HTML Pandas Dataframe with CSS</title></head>
-  <link rel="stylesheet" type="text/css" href="df_style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+  <script src="main.js"></script>
   <body>
-    {table}
+    <section class="container">
+        <h2>Uni Application Dashboard</h2>
+        <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter">
+        {table}
+    </section>
   </body>
 </html>.
 '''
