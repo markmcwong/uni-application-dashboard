@@ -1,1 +1,1 @@
-pip install requests json beautifulsoup pandas
+pip install requests beautifulsoup pandas lxml
