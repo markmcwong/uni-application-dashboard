@@ -10,7 +10,7 @@ Using Python Beautiful Soup to scrap all these university application dashboard 
 
 **Prerequisites:**
 - python 3 -> download here https://www.python.org/downloads/
-- python 3 packages: `requests, beautifulsoup, pandas`
+- python 3 packages: `requests, beautifulsoup, pandas, lxml`
 
   After installing python run `pip install requests beautifulsoup pandas` in command prompt, or if you are really lazy you can run the `install.bat`, **remember to replace the email and password in the scrap.py!!!**
 
