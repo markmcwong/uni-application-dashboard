@@ -16,7 +16,7 @@ After installing python run `pip install requests beautifulsoup pandas lxml` in 
 
 - Run the python script by typing `cd `where you store the folder e.g. `cd C:/Users/mark/Downloads/Uni-Application-Dashboard` then type `python scrap.py` and click enter, or just run the `run.bat` file
 
-If you want to try if any college admission portal dashboard works with this, just add the url to the json list with double quote and **a comma at the 2nd last item (look at the format of the lines above you will see the pattern - VERY IMPORTANT TO ADD A COMMA** if its not at the end of the list!
+If you want to try if any college admission portal dashboard works with this, just add the url to the json list with double quote and **a comma at the 2nd last item (look at the format of the lines above you will see the pattern - VERY IMPORTANT TO ADD A COMMA WHEN YOU ADD A NEW ITEM**
 
 And please tell me by adding the results to the google sheets below! 
 
