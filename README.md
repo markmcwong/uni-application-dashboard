@@ -10,13 +10,15 @@ Using Python Beautiful Soup to scrap all these university application dashboard 
 
 **Prerequisites:**
 - python 3 -> download here https://www.python.org/downloads/
-- python 3 packages: `requests, json, beautifulsoup, pandas`
+- python 3 packages: `requests, beautifulsoup4, pandas, lxml`
 
-  After installing python run `pip install requests json beautifulsoup pandas` in command prompt, or if you are really lazy you can run the `install.bat`, **remember to replace the email and password in the scrap.py!!!**
+After installing python run `pip install requests beautifulsoup pandas lxml` in command prompt (If you are running on Mac run `easy_install pip` then run the command above), or if you are really lazy you can run the `install.bat`, 
 
-- Run the python script by typing `cd `where you store the folder e.g. `cd C:/Users/mark/Downloads/Uni-Application-Dashboard'` then type `python scrap.py` and click enter, or just run the `run.bat` file
+**REMEMBER TO REPLACE the EMAIL and PASSWORD in the scrap.py!!!**
 
-If you want to try if any college admission portal dashboard works with this, just add the url to the json list with double quote and a comma if its not at the end of the list!
+- Run the python script by typing `cd `where you store the folder e.g. `cd C:/Users/mark/Downloads/Uni-Application-Dashboard` then type `python scrap.py` and click enter, or just run the `run.bat` file inside the folder
+
+If you want to try if any college admission portal dashboard works with this, just add the url **at the start** of the json list with double quote and **a comma (look at the format of the lines above you will see the pattern - VERY IMPORTANT TO ADD A COMMA WHEN YOU ADD A NEW ITEM**
 
 And please tell me by adding the results to the google sheets below! 
 
